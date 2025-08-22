@@ -5,11 +5,12 @@ public  class TangibleAsset{
 
 public TangibleAsset(String name,int price,String color){
   this.name=name;
-  this price=price;
-  this color=color;
+  this.price=price;
+  this.color=color;
 }  
 
 public String GetName(){return this.name}
 public int price(){return this.price}
 public String color(){return this.color}
+
 }
